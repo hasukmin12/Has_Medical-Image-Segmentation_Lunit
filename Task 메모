@@ -1,0 +1,9 @@
+
+/opt/conda/bin/python /home/sukmin/Has_Medical-Image-Segmentation/train.py
+
+
+
+/opt/conda/bin/python train.py 
+/opt/conda/bin/python inference.py organ_v1 -i '/disk1/sukmin/dataset/Task001_Multi_Organ_imagesTs' -o '/disk1/sukmin/inf_rst/multi_organ_model/new_unet_focal_portion_96'
+
+

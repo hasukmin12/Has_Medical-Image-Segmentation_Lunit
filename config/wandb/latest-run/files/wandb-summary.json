@@ -1,0 +1,1 @@
+{"train_loss": 1.5901307408465237, "_runtime": 6152, "_timestamp": 1676953020, "_step": 25, "valid_dice": 0.5312225222587585, "valid_miss rate": 0.5125740766525269, "valid_dice/Tumor": 0.6122817993164062, "valid_dice/non_tumor": 0.45016324520111084}

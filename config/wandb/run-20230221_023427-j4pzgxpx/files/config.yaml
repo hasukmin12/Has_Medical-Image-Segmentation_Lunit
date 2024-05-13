@@ -1,0 +1,82 @@
+wandb_version: 1
+
+BATCH_SIZE:
+  desc: null
+  value: 4
+CHANNEL_IN:
+  desc: null
+  value: 3
+CHANNEL_OUT:
+  desc: null
+  value: 3
+CONTRAST:
+  desc: null
+  value:
+  - 0
+  - 2000
+EVAL_NUM:
+  desc: null
+  value: 50
+FAST:
+  desc: null
+  value: false
+INPUT_SHAPE:
+  desc: null
+  value:
+  - 1024
+  - 1024
+LOAD_MODEL:
+  desc: null
+  value: false
+LOSS_NAME:
+  desc: null
+  value: DiceCE
+LR_DECAY:
+  desc: null
+  value: 1.0e-05
+LR_INIT:
+  desc: null
+  value: 0.0005
+MAX_ITERATIONS:
+  desc: null
+  value: 2940
+MODEL_NAME:
+  desc: null
+  value: DL_ConvNext_large_GF
+MOMENTUM:
+  desc: null
+  value: 0.9
+OPTIM_NAME:
+  desc: null
+  value: AdamW
+SAMPLES:
+  desc: null
+  value: 2
+SEEDS:
+  desc: null
+  value: 12321
+SPACING:
+  desc: null
+  value: null
+TRANSFORM:
+  desc: null
+  value: 1
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.0
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.7.13
+    start_time: 1676946868
+    t:
+      1:
+      - 1
+      4: 3.7.13
+      5: 0.12.0
+      8:
+      - 5
+save_name:
+  desc: null
+  value: DL_ConvNext_large_b4_bbbaseline_DiceCE_GF_0.3_TC_0.2_r1024_226

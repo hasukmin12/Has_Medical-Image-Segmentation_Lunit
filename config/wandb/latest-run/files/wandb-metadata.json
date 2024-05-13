@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.4.0-81-generic-x86_64-with-debian-buster-sid",
+    "python": "3.7.13",
+    "heartbeatAt": "2023-02-21T02:34:29.703744",
+    "startedAt": "2023-02-21T02:34:27.887520",
+    "docker": null,
+    "gpu": "NVIDIA A100-PCIE-40GB",
+    "gpu_count": 2,
+    "cpu_count": 112,
+    "cuda": "10.1.243",
+    "args": [],
+    "state": "running",
+    "program": "/home/sukmin/Has_Medical-Image-Segmentation/train_for_GF_TC.py",
+    "codePath": "train_for_GF_TC.py",
+    "git": {
+        "remote": "https://github.com/hasukmin12/Medical-Image-Segmentation.git",
+        "commit": "a0b75abb2195d5a1ba4ac10f2a493ff89bbaa5a4"
+    },
+    "email": null,
+    "root": "/home/sukmin/Has_Medical-Image-Segmentation",
+    "host": "513657e7f10e",
+    "username": "root",
+    "executable": "/opt/conda/bin/python"
+}
